@@ -2,7 +2,7 @@ from typing import List, Dict, Optional
 from time import sleep
 
 from models.products import Product
-from utils.helpper import float_to_str_coin
+from utils.helper import float_to_str_coin
 
 products: List[Product] = []
 shopping_cart: List[Dict[Product, int]] = []
